@@ -1,0 +1,165 @@
+
+body {
+    font-family: "Open Sans", sans-serif;
+  }
+  nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0px 50px 0px 200px;
+  }
+  .name{
+      font-size: 45px;
+  }
+  .letter{
+      color: #FD6E0A;
+  }
+  nav>ul{
+      color: #474747;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400; 
+      display: flex;
+      align-items: center;
+  }
+  nav li{
+      list-style: none;
+      margin-right: 50px;
+  }
+  nav a{
+      text-decoration: none;
+  }
+  .primary-button{
+      width: 120px;
+  height: 60px;
+  border-radius: 5px;
+  border: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  background: #FD6E0A;
+  padding: 10px; 
+  }
+  header{
+      background: #FFF8F3; 
+  }
+  .banner{
+      margin-left: 200px;
+      display: flex;
+      background-image: url('../css/header_bg.png');
+      background-repeat: no-repeat;
+      background-position: bottom right;
+  
+  }
+  .banner>p{
+      margin-bottom: 0px;
+      margin-top: 10px;
+      margin-right: 500px;
+  }
+  
+  .banner .primary-button{
+      margin-top: 50px;
+      font-size: 15px;
+      margin-right: 20px;
+  }
+   .image{
+      width: 584px;
+    height: 676px; 
+  }
+  .section1{ 
+      margin: 100px 300px;
+      padding: 50px; 
+      border-radius: 10px;
+      background: #FFF8F3; 
+  
+  }
+  
+  .about{
+      text-align: center;
+  }
+  .details {
+      display: flex;
+      font-size: 12px;
+  }
+  .details h5{
+      text-align: center;
+  }
+  .details p{
+      text-align: center;
+  }
+  .section2 h2{
+      text-align: center;
+  }
+  .section2{
+      margin: 100px 300px;
+      background-color: #FFF; 
+  }
+  .section3 {
+      display: flex;
+      justify-content: space-around;
+  }
+  .section3 .sec3{
+      margin: 30px 20px;
+  }
+  .section3 h3{
+      text-align: center;
+  }
+  .summary{
+      text-align: center;
+  }
+  .section4 {
+      display: flex;
+      align-items: center;
+      margin-left: 250px;
+      margin-right: 250px;
+  }
+  .section4 .edu{
+      margin-right: 50px;
+     justify-content: space-between;
+  }
+  .section4 .edu h4,h5,h6{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+  .cvbutton {
+      text-align: center;
+      margin-top: 50px;
+  }
+  .cvbutton .primary-button{
+      font-size: 15px;
+  }
+  .foot{
+      display: flex;
+      margin:  50px 250px;
+      border: 0px;
+      background-color:  #FFF8F3; 
+  }
+  .foot .footers{ 
+      margin-right: 200px;
+  }
+   
+  .form .fill{
+      font-size: 15px;
+        margin-bottom: 10px;
+        width:250px;
+        height: 20px;
+  }
+  .form .text{
+      text-align:center;
+      font-size: 15px;
+        width:250px;
+        height: 100px;
+  }
+  .form{
+      width: 100px;
+  }
+  
+  .form .primary-button{
+      height: 40px;
+      width: 100px;
+      margin-top: 10px;
+      margin-left: 75px;
+      margin-bottom: 50px;
+  }
+  
+  
